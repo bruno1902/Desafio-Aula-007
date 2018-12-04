@@ -6,6 +6,14 @@
 .description-product > .title {
   font-size: 25px;
   margin-bottom: 50px;
+  position: relative;
+}
+
+.description-product > .item.-heart{
+  position: absolute;
+  left: -47.2px;
+  top: 4px;
+  transform: translateX(-100%);
 }
 
 .description-product > .item {
